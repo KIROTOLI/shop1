@@ -1,18 +1,23 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="home">
+        <el-button type='info' @click='logoout'>退出</el-button>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+    name:'home',
+    methods:{
+        logoout(){
+            window.sessionStorage.clear()
+            this.$router.push('/logoin')
+        }
+    }
 }
 </script>
+
+<style scoped>
+
+</style>>
+
+</style>
