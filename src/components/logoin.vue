@@ -52,7 +52,7 @@ export default {
                     // console.log(r)
                     if(r.data.meta.status===200){
                         console.log(r)
-                        window.sessionStorage.setItem('token',r.data.token)
+                        window.sessionStorage.setItem('token',r.data.data.token)
                         this.$router.push('./home')
                         return this.$message.success('登录成功')
                     }else{

@@ -8,3 +8,4 @@ import ElementUI from 'element-ui'
 
 // Vue.use(Button)
 Vue.use(ElementUI)
+// Vue.prototype.$confirm=
