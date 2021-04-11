@@ -1,11 +1,11 @@
-# shop
+# 商城后台管理系统
 
-## Project setup
+## 项目下载相关依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 让项目跑起来
 ```
 npm run serve
 ```
