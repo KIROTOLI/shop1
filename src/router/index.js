@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+
 const logoin=()=>import('../components/logoin.vue')
 const home=()=>import('../views/Home.vue')
 const welcome=()=>import('../components/welcome.vue')
@@ -8,6 +9,7 @@ const users=()=>import('../components/user/users.vue')
 const roles=()=>import('../components/rights/roles.vue')
 const rights=()=>import('../components/rights/rights.vue')
 const categories=()=>import('../components/goods/categories.vue')
+const params=()=>import('../components/goods/params.vue')
 
 
 Vue.use(VueRouter)
@@ -38,6 +40,10 @@ const routes = [
         },{
           path:'/categories',
           component:categories
+        },
+        {
+          path:'/params',
+          component:params
         }
       ]
   }
