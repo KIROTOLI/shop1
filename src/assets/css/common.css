@@ -6,3 +6,6 @@ body{
 html{
     height: 100%;
 }
+.ql-editor{
+    min-height: 300px;
+}
