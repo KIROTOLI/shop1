@@ -7,10 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.0.0-rc.6",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "echarts": "^5.0.2",
     "element-ui": "^2.4.5",
     "vue": "^2.6.11",
+    "vue-echarts": "^6.0.0-rc.4",
     "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.2.0",
     "vue-table-with-tree-grid": "^0.2.4"

@@ -25,7 +25,7 @@
             <el-table-column label='商品价格(元)' prop='goods_price' width='120px'></el-table-column>
             <el-table-column label='商品重量' prop='goods_weight' width='90px'></el-table-column>
             <el-table-column label='创建时间' prop='upd_time' width='200px'>
-                <template v-slot=scope>{{scope.row.upd_time | dataformat}}</template>
+                <template v-slot='scope'>{{scope.row.upd_time | dataformat}}</template>
             </el-table-column>
             <el-table-column label='操作' width='200px'>
                 <template v-slot='scope'>
